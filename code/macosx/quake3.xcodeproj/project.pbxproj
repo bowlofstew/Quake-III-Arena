@@ -72,6 +72,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2D3C432215A34D450007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C431B15A34D450007B6F5 /* cgame.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2735319514D125FD00EB7BD6;
+			remoteInfo = cgame;
+		};
+		2D3C432B15A34D490007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C432415A34D490007B6F5 /* game.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 273531B414D126C300EB7BD6;
+			remoteInfo = game;
+		};
+		2D3C433615A34D960007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C431B15A34D450007B6F5 /* cgame.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2735319414D125FD00EB7BD6;
+			remoteInfo = cgame;
+		};
+		2D3C433815A34D960007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C432415A34D490007B6F5 /* game.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 273531B314D126C300EB7BD6;
+			remoteInfo = game;
+		};
+		2D3C438315A34F420007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C437C15A34F420007B6F5 /* q3_ui.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 273531C714D1270700EB7BD6;
+			remoteInfo = q3_ui;
+		};
+		2D3C438515A34F4F0007B6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3C437C15A34F420007B6F5 /* q3_ui.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 273531C614D1270700EB7BD6;
+			remoteInfo = q3_ui;
+		};
 		2DB7397115A3461200D92433 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DB7396A15A3461200D92433 /* botlib.xcodeproj */;
@@ -201,6 +243,9 @@
 		273E440814D158CB006BC120 /* Quake3.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Quake3.icns; sourceTree = "<group>"; };
 		27C37B2B14D1483500DC3BE4 /* botlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = botlib.h; sourceTree = "<group>"; };
 		27C37B3214D1509E00DC3BE4 /* tr_public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tr_public.h; sourceTree = "<group>"; };
+		2D3C431B15A34D450007B6F5 /* cgame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cgame.xcodeproj; path = ../cgame/cgame.xcodeproj; sourceTree = "<group>"; };
+		2D3C432415A34D490007B6F5 /* game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = game.xcodeproj; path = ../game/game.xcodeproj; sourceTree = "<group>"; };
+		2D3C437C15A34F420007B6F5 /* q3_ui.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = q3_ui.xcodeproj; path = ../q3_ui/q3_ui.xcodeproj; sourceTree = "<group>"; };
 		2DB7396A15A3461200D92433 /* botlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = botlib.xcodeproj; path = ../botlib/botlib.xcodeproj; sourceTree = "<group>"; };
 		2DB7397415A3461700D92433 /* renderer_gl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = renderer_gl.xcodeproj; path = ../renderer/renderer_gl.xcodeproj; sourceTree = "<group>"; };
 		2DB7397D15A3461D00D92433 /* jpeg6.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jpeg6.xcodeproj; path = "../jpeg-6/jpeg6.xcodeproj"; sourceTree = "<group>"; };
@@ -408,6 +453,9 @@
 		273531E014D1275D00EB7BD6 = {
 			isa = PBXGroup;
 			children = (
+				2D3C437C15A34F420007B6F5 /* q3_ui.xcodeproj */,
+				2D3C432415A34D490007B6F5 /* game.xcodeproj */,
+				2D3C431B15A34D450007B6F5 /* cgame.xcodeproj */,
 				2DB7397D15A3461D00D92433 /* jpeg6.xcodeproj */,
 				2DB7397415A3461700D92433 /* renderer_gl.xcodeproj */,
 				2DB7396A15A3461200D92433 /* botlib.xcodeproj */,
@@ -453,6 +501,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2D3C431C15A34D450007B6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C432315A34D450007B6F5 /* cgame.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3C432515A34D490007B6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C432C15A34D490007B6F5 /* game.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3C437D15A34F420007B6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C438415A34F420007B6F5 /* q3_ui.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2DB7396B15A3461200D92433 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +563,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				2D3C438615A34F4F0007B6F5 /* PBXTargetDependency */,
+				2D3C433715A34D960007B6F5 /* PBXTargetDependency */,
+				2D3C433915A34D960007B6F5 /* PBXTargetDependency */,
 			);
 			name = quake3;
 			productName = quake3;
@@ -522,8 +597,20 @@
 					ProjectRef = 2DB7396A15A3461200D92433 /* botlib.xcodeproj */;
 				},
 				{
+					ProductGroup = 2D3C431C15A34D450007B6F5 /* Products */;
+					ProjectRef = 2D3C431B15A34D450007B6F5 /* cgame.xcodeproj */;
+				},
+				{
+					ProductGroup = 2D3C432515A34D490007B6F5 /* Products */;
+					ProjectRef = 2D3C432415A34D490007B6F5 /* game.xcodeproj */;
+				},
+				{
 					ProductGroup = 2DB7397E15A3461D00D92433 /* Products */;
 					ProjectRef = 2DB7397D15A3461D00D92433 /* jpeg6.xcodeproj */;
+				},
+				{
+					ProductGroup = 2D3C437D15A34F420007B6F5 /* Products */;
+					ProjectRef = 2D3C437C15A34F420007B6F5 /* q3_ui.xcodeproj */;
 				},
 				{
 					ProductGroup = 2DB7397515A3461700D92433 /* Products */;
@@ -538,6 +625,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		2D3C432315A34D450007B6F5 /* cgame.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = cgame.dylib;
+			remoteRef = 2D3C432215A34D450007B6F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D3C432C15A34D490007B6F5 /* game.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = game.dylib;
+			remoteRef = 2D3C432B15A34D490007B6F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D3C438415A34F420007B6F5 /* q3_ui.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = q3_ui.dylib;
+			remoteRef = 2D3C438315A34F420007B6F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2DB7397215A3461200D92433 /* botlib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -635,6 +743,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3C433715A34D960007B6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cgame;
+			targetProxy = 2D3C433615A34D960007B6F5 /* PBXContainerItemProxy */;
+		};
+		2D3C433915A34D960007B6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = game;
+			targetProxy = 2D3C433815A34D960007B6F5 /* PBXContainerItemProxy */;
+		};
+		2D3C438615A34F4F0007B6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = q3_ui;
+			targetProxy = 2D3C438515A34F4F0007B6F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		273531F814D1275D00EB7BD6 /* InfoPlist.strings */ = {
